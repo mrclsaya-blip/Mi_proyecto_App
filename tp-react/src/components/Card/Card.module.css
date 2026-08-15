@@ -1,0 +1,48 @@
+.card {
+    background-color: #fff0f5;
+    border: 2px solid #ffb7c5;
+    border-radius: 10px;
+    padding: 12px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 170px;
+}
+
+.textos {
+    min-height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card h3 {
+    color: #37273a;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    flex-grow: 1;
+}
+
+.precio {
+    color: #37273a;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card button {
+    background-color: #76607f;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #1e0926;
+}
